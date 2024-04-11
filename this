@@ -1,0 +1,32 @@
+THIS---
+class A1 {
+    	  public A1 () {
+	System.out.println("A1");
+     }
+}
+	class B1 extends A1 {
+		public B1 () {
+			System.out.println("B1");
+		}
+	}		
+		class C1 extends B1 {
+				public C1() {	
+				}
+			}
+			
+public class This {
+
+	public static void main(String[] args) {
+		C1 obj = new C1 (); //A1 then C1 
+		System.out.println(obj);
+	
+
+	}
+
+}
+
+O/P---
+A1
+B1
+in.java.eclipse.C1@5e9f23b4
+
